@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 페이지</title>
+    <!-- 폰트어썸(아이콘) -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- 구글폰트(노토산스)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS 초기화 -->
+    <style type="text/css">
+      @import url("css/reset.css");
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/login.css" />
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" />
+          </a>
+        </h1>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container">
+        <h1 class="title">로그인</h1>
+        <form class="main__form">
+          <div class="form__container">
+            <div class="form__row">
+              <label for="id">ID</label>
+              <input type="text" id="id" placeholder="아이디 입력" />
+            </div>
+            <div class="form__row">
+              <label for="psw">PASSWORD</label>
+              <input type="text" id="psw" placeholder="비밀번호 입력" />
+            </div>
+          </div>
+          <button>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </form>
+        <div class="main__link">
+          <a href="join.html">회원가입</a>
+          <a href="find.html">아이디/비밀번호 찾기</a>
+        </div>
+        <div class="main__button">
+          <button class="kakao"><span>K</span>카카오톡 로그인</button>
+          <button class="naver"><span>N</span>네이버 로그인</button>
+          <button class="google"><span>G</span>구글 로그인</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

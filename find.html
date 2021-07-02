@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>아이디/비밀번호 찾기</title>
+    <!-- 폰트어썸(아이콘) -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- 구글폰트(노토산스)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS 초기화 -->
+    <style type="text/css">
+      @import url("css/reset.css");
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/find.css" />
+
+    <!-- JS -->
+    <script src="js/find.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" />
+          </a>
+        </h1>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container">
+        <div class="main__find">
+          <div id="idFind" class="select">아이디 찾기</div>
+          <div id="pswFind">비밀번호 찾기</div>
+        </div>
+        <form class="main__form">
+          <div class="form__row">
+            <label for="phoneNumber">휴대폰 번호</label>
+            <select id="phoneNumber">
+              <option>010</option>
+              <option>011</option>
+            </select>
+            <input type="tel" />
+            <input type="tel" />
+          </div>
+          <div class="form__row">
+            <label for="auth">인증 번호</label>
+            <input type="text" />
+          </div>
+          <div class="form__row find">
+            <button class="findBtn">아이디 찾기</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

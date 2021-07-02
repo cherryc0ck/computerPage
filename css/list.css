@@ -1,0 +1,69 @@
+#main {
+}
+
+.main__container {
+  position: relative;
+  padding: 60px 0;
+}
+
+.main__title {
+  margin-bottom: 60px;
+}
+
+.main__btn {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  display: flex;
+}
+
+.main__btn button {
+  width: 90px;
+  height: 50px;
+  border: 1px solid lightgray;
+  color: #151515;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main__btn .selected {
+  color: #fff;
+  background-color: #189cc4;
+}
+
+.main__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main__list > li {
+  width: 46%;
+  margin-bottom: 40px;
+}
+
+.main__list > li > a {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+
+.main__img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.main__txt {
+  width: 50%;
+  padding: 20px 0;
+}
+
+.main__txt span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main__txt p {
+  line-height: 1.4em;
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>컴퓨터페이지에 오신걸 환영합니다.</title>
+    <!-- 폰트어썸(아이콘) -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- 구글폰트(노토산스)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS 초기화 -->
+    <style type="text/css">
+      @import url("css/reset.css");
+    </style>
+
+    <style type="text/css">
+      @import url("css/basic.css");
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/detail.css" />
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header id="header">
+      <div class="header__container container">
+        <div class="oneDev">
+          <h1 class="header__logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+          </h1>
+          <div class="header__search">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="search" />
+            <button>검색</button>
+          </div>
+          <a href="login.html">
+            <button class="joinLogin">로그인 / 회원가입</button>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Navbar Start -->
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="computerList.html">컴퓨터</a>
+        </li>
+        <li>
+          <a href="notebookList.html">노트북</a>
+        </li>
+        <li>
+          <a href="phoneList.html">스마트폰</a>
+        </li>
+        <li>
+          <a href="gogack.html">고객센터</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Main Start-->
+    <section id="main">
+      <div class="main__container container">
+        <div class="main__oneRow">
+          <div class="main__itemImg">
+            <img src="images/computer/computer1.jpg" />
+          </div>
+          <div class="main__itemTxt">
+            <p class="bold">조립PC</p>
+            <p class="bold">제품명 : 올인원PC</p>
+            <p class="bold">가격 : 1,500,000원</p>
+            <p>판매사 : 좋은PC</p>
+            <p>0월 0일 출발예정</p>
+            <p>배송비 : 무료 배송</p>
+          </div>
+        </div>
+        <div class="main__twoRow">
+          <img src="images/computer/computer1.jpg" />
+          <img src="images/computer/computer1.jpg" />
+          <img src="images/computer/computer1.jpg" />
+          <img src="images/computer/computer1.jpg" />
+        </div>
+        <div class="main__threeRow">
+          <div class="main__old">
+            <h2>중고 제품</h2>
+            <div class="main__oldItem">
+              <div class="old-1">
+                <div class="old__img">
+                  <img src="images/computer/computer1.jpg" />
+                </div>
+                <div class="old__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>가격 : 1,500,000</p>
+                  <p>판매자 : 김*수</p>
+                  <p>배송비 : 무료 배송</p>
+                </div>
+              </div>
+              <div class="old-1">
+                <div class="old__img">
+                  <img src="images/computer/computer1.jpg" />
+                </div>
+                <div class="old__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>가격 : 1,500,000</p>
+                  <p>판매자 : 김*수</p>
+                  <p>배송비 : 무료 배송</p>
+                </div>
+              </div>
+              <div class="old-plus">
+                <i class="fas fa-plus-circle"></i>
+                더보기
+              </div>
+            </div>
+          </div>
+          <div class="main__option">
+            <h2>옵션 선택</h2>
+            <select>
+              <option>1.운영체제 변경</option>
+              <option>- 운영체제 없음 (+ 0원)</option>
+              <option>- 윈도우10 (+123,000원)</option>
+            </select>
+            <select>
+              <option>2. 메모리 변경</option>
+              <option>- 기본 8GB (+ 0원)</option>
+              <option>- +8GB (+ 45,000원)</option>
+              <option>- +16GB (+ 92,000원)</option>
+            </select>
+            <select>
+              <option>3. SSD변경</option>
+              <option>- 기본 250GB (+ 0원)</option>
+              <option>- 512GB (+ 21,000원)</option>
+              <option>- 1TB (+ 130,000원)</option>
+            </select>
+          </div>
+        </div>
+        <div class="main__fourRow">
+          <h2>비슷한 상품</h2>
+          <ul class="main__similar">
+            <li>
+              <a>
+                <div class="similar__img">
+                  <img src="./images/computer/computer1.jpg" />
+                </div>
+                <div class="similar__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3) : 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="similar__img">
+                  <img src="./images/computer/computer1.jpg" />
+                </div>
+                <div class="similar__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3) : 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="similar__img">
+                  <img src="./images/computer/computer1.jpg" />
+                </div>
+                <div class="similar__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3) : 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="similar__img">
+                  <img src="./images/computer/computer1.jpg" />
+                </div>
+                <div class="similar__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3) : 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="similar__img">
+                  <img src="./images/computer/computer1.jpg" />
+                </div>
+                <div class="similar__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3) : 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="similar__img">
+                  <img src="./images/computer/computer1.jpg" />
+                </div>
+                <div class="similar__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3) : 700,000원</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="main__fiveRow">
+          <div class="main__row">
+            <div class="main__left">
+              <img src="images/computer/computer1.jpg" />
+            </div>
+            <div class="main__right">
+              <div class="row">
+                <span class="span-1">CPU</span>
+                <span class="span-2">내용내용내용내용내용</span>
+              </div>
+              <div class="row">
+                <span class="span-1">GPU</span>
+                <span class="span-2">내용내용</span>
+              </div>
+              <div class="row">
+                <span class="span-1">메인보드</span>
+                <span class="span-2">내용내용내용</span>
+              </div>
+              <div class="row">
+                <span class="span-1">메모리</span>
+                <span class="span-2">내용내용</span>
+              </div>
+              <div class="row">
+                <span class="span-1">SSD</span>
+                <span class="span-2">ssdsdd</span>
+              </div>
+              <div class="row">
+                <span class="span-1">케이스</span>
+                <span class="span-2">내용내용내용</span>
+              </div>
+              <div class="row">
+                <span class="span-1">파워</span>
+                <span class="span-2">내용내용내용내용내용~~~</span>
+              </div>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, qui
+            voluptas odio aut rem commodi sit laborum esse sed non vero nemo
+            molestiae enim placeat dolorum debitis quibusdam earum aliquam!
+            Error consectetur perspiciatis molestiae exercitationem explicabo
+            reiciendis debitis libero at vel, atque corporis quisquam ut numquam
+            excepturi tenetur sunt fugit, quo consequuntur deleniti optio ipsam
+            ab obcaecati soluta adipisci? Necessitatibus?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Main End-->
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="footer__container container">
+        <h2 class="footer__title">회사 정보</h2>
+        <div class="footer__info">
+          <div class="footer__left">
+            <div class="footer__item contact">
+              <div class="footer__icon">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="footer__txt">
+                <span>전화번호 : 02-111-1111</span>
+                <span>이메일 : obodefg@naver.com</span>
+              </div>
+            </div>
+            <div class="footer__item location">
+              <div class="footer__icon">
+                <i class="far fa-lightbulb"></i>
+              </div>
+              <div class="footer__txt">
+                <span>서울 ~~~~~~~~~~~</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer__right">
+            <span>대표이사 : 홍길동</span>
+            <span>사업자 등록번호 : 111-11-111111</span>
+            <span>통신판매업신고번호 : 1111-서울-11111</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
