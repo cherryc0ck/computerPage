@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #151515;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #151515;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  outline: none;
+  background: none;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.logout,
+.mypage {
+  width: 100px;
+  height: 30px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.logout:hover,
+.mypage:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+#main-1,
+#main-2,
+#main-3,
+#main-4,
+#main-5 {
+  margin-top: 60px;
+}
+
+.main__container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.main__category {
+  display: flex;
+  width: 100%;
+}
+
+.main__category a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 80px;
+  border: 1px solid black;
+  color: #151515;
+  font-family: ;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main__category a.selected {
+  background-color: #189cc4;
+  color: #fff;
+}
+
+/* 찜 목록 */
+/* 찜 목록 */
+#main-1 .main__list {
+  height: 460px;
+  overflow-y: scroll;
+}
+
+#main-1 .main__list > li {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+#main-1 .main__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  border-right: 1px solid lightgray;
+}
+
+#main-1 .main__item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+#main-1 .main__img {
+  width: 20%;
+}
+
+#main-1 .main__txt1 {
+  width: 50%;
+  padding-left: 20px;
+}
+
+#main-1 .main__txt1 > h3 {
+  margin-bottom: 10px;
+}
+
+#main-1 .main__txt1 > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+#main-1 .main__txt2 {
+  width: 30%;
+  padding-left: 20px;
+}
+
+#main-1 .main__txt2 > span {
+  display: block;
+  padding: 6px 0;
+}
+
+/*주문 내역 */
+/*주문 내역 */
+#main-2 .main__list {
+  height: 460px;
+  overflow-y: scroll;
+}
+
+#main-2 .main__list > li {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+#main-2 .main__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  border-right: 1px solid lightgray;
+}
+
+#main-2 .main__item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+#main-2 .main__img {
+  width: 20%;
+}
+
+#main-2 .main__txt1 {
+  width: 50%;
+  padding-left: 20px;
+}
+
+#main-2 .main__txt1 > h3 {
+  margin-bottom: 10px;
+}
+
+#main-2 .main__txt1 > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+#main-2 .main__txt2 {
+  width: 30%;
+  padding-left: 20px;
+}
+
+#main-2 .main__txt2 > span {
+  display: block;
+  padding: 6px 0;
+}
+
+/* 내 판매 물품 조회 */
+/* 내 판매 물품 조회 */
+
+#main-3 .main__container {
+  position: relative;
+}
+
+#main-3 .main__list {
+  height: 460px;
+  overflow-y: scroll;
+}
+
+#main-3 .main__list > li {
+  display: flex;
+  padding: 20px 0;
+  padding-left: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+#main-3 .main__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  border-right: 1px solid lightgray;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#main-3 .main__item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+#main-3 .main__img {
+  width: 20%;
+}
+
+#main-3 .main__txt1 {
+  width: 50%;
+  padding-left: 20px;
+}
+
+#main-3 .main__txt1 > h3 {
+  margin-bottom: 10px;
+}
+
+#main-3 .main__txt1 > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+#main-3 .main__txt2 {
+  width: 30%;
+  padding-left: 20px;
+}
+
+#main-3 .main__txt2 > span {
+  display: block;
+  padding: 6px 0;
+}
+
+#main-3 .main__txt3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-3 .main__txt3 button {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+#main-3 .enroll {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 30px;
+}
+
+#main-3 .enroll:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+/* 비밀번호 변경 */
+/* 비밀번호 변경 */
+
+#main-4 .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+#main-4 .flex__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#main-4 label {
+  display: inline-block;
+  width: 160px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#main-4 button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+#main-4 input {
+  width: 220px;
+  height: 30px;
+}
+
+#main-4 button:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+/* 회원탈퇴 */
+/* 회원탈퇴 */
+
+#main-5 .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+#main-5 .flex__row {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+#main-5 label {
+  display: inline-block;
+  width: 160px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#main-5 button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+#main-5 button:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+#main-5 input {
+  width: 210px;
+  height: 30px;
+}
+
+#main-5 .tel,
+#main-5 select {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#main-5 #auth {
+  width: 60px;
+}
+
+#main-5 .flex__row.caution {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 800px;
+}
+
+#main-5 .flex__row.caution h3 {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#main-5 .flex__row.caution p {
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+
+#main-5 .flex__row.check {
+  width: 800px;
+  align-items: center;
+}
+
+#main-5 .flex__row.check input {
+  width: 25px;
+  height: 25px;
+}
+
+#main-5 .flex__row.check > span {
+  font-weight: 300;
+}

@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #151515;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #151515;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  outline: none;
+  background: none;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.logout,
+.mypage {
+  width: 100px;
+  height: 30px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.logout:hover,
+.mypage:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+#main-1,
+#main-2,
+#main-3,
+#main-4,
+#main-5 {
+  margin-top: 60px;
+}
+
+.main__container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.main__category {
+  display: flex;
+  width: 100%;
+}
+
+.main__category a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.333%;
+  height: 80px;
+  border: 1px solid black;
+  color: #151515;
+  font-family: ;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main__category a.selected {
+  background-color: #189cc4;
+  color: #fff;
+}
+
+/* 공지사항 */
+/* 공지사항 */
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 20px 120px;
+}
+
+.main__input {
+  position: relative;
+}
+
+.main__input > input {
+  width: 500px;
+  height: 40px;
+  padding-left: 30px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+}
+
+.main__input > i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.main__btn {
+  display: flex;
+}
+
+.main__btn button {
+  width: 100px;
+  margin-right: 10px;
+  padding: 5px 5px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.main__btn button:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+.main__btn button:last-child {
+  width: 160px;
+}
+
+.main__table {
+  width: 100%;
+}
+
+.main__table th {
+  padding: 6px 0;
+  background-color: lightslategray;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main__table td {
+  padding: 6px 0;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.main__table .row-1 {
+  width: 50%;
+}
+
+.main__table .row-2 {
+  width: 20%;
+}
+
+.main__table .row-3 {
+  width: 30%;
+}
+
+.main__table tr:nth-child(2n) {
+  background-color: silver;
+}
+
+.main__table button {
+  transition: all 0.3s;
+}
+
+.main__table button:hover {
+  background-color: #151515;
+  color: #fff;
+}
+
+.pagenation {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.pagenation > span {
+  display: inline-block;
+  padding: 0 8px;
+  border-right: 1px solid black;
+  font-weight: bold;
+  line-height: 1.5em;
+  cursor: pointer;
+}
+
+.pagenation .before {
+  margin-right: 60px;
+}
+
+.pagenation .next {
+  margin-left: 60px;
+}
+
+.pagenation > span.selected {
+  background-color: #189cc4;
+  color: #fff;
+}
+
+.main__qna {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 60px;
+}
+
+.qna__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.qna__row > p {
+  margin-right: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.qna__row > input {
+  width: 80%;
+  height: 30px;
+}
+
+.qna__row > .input__content {
+  height: 400px;
+}
+
+.go-qna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.go-qna button {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.go-qna button:hover {
+  background-color: #151515;
+  color: #fff;
+}

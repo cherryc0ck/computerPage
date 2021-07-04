@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>컴퓨터페이지에 오신걸 환영합니다.</title>
+    <!-- 폰트어썸(아이콘) -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- 구글폰트(노토산스)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS 초기화 -->
+    <style type="text/css">
+      @import url("css/reset.css");
+    </style>
+
+    <style type="text/css">
+      @import url("css/basic.css");
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/mypage.css" />
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header id="header">
+      <div class="header__container container">
+        <div class="oneDev">
+          <h1 class="header__logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+          </h1>
+          <div class="header__search">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="search" />
+            <button>검색</button>
+          </div>
+          <div>
+            <a>
+              <button class="logout">로그아웃</button>
+            </a>
+            <a href="mp-1.html"> <button class="mypage">마이페이지</button> </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Navbar Start -->
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="computerList.html">컴퓨터</a>
+        </li>
+        <li>
+          <a href="notebookList.html">노트북</a>
+        </li>
+        <li>
+          <a href="phoneList.html">스마트폰</a>
+        </li>
+        <li>
+          <a href="gogack.html">고객센터</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Main Start-->
+    <section id="main-5">
+      <div class="main__container container">
+        <div class="main__category">
+          <a href="mp-1.html" class="category-1">찜 목록</a>
+          <a href="mp-2.html" class="category-2">주문 내역</a>
+          <a href="mp-3.html" class="category-3">내 판매 물품 조회</a>
+          <a href="mp-4.html" class="category-4">비밀번호 변경</a>
+          <a href="mp-5.html" class="category-5 selected">회원 탈퇴</a>
+        </div>
+        <div class="flex">
+          <div class="flex__row">
+            <label for="psw">비밀번호</label>
+            <input type="text" id="psw" />
+          </div>
+          <div class="flex__row">
+            <label for="phoneNumber">휴대폰번호</label>
+            <select>
+              <option>010</option>
+              <option>011</option>
+            </select>
+            <input type="tel" class="tel" />
+            <input type="tel" class="tel" />
+          </div>
+          <div class="flex__row">
+            <label for="auth">인증번호</label>
+            <input type="text" id="auth" />
+          </div>
+          <div class="flex__row caution">
+            <h3>주의사항</h3>
+            <p>
+              주의사항입니다. 이곳은 주의사항입니다.이곳은
+              주의사항입니다.주의사항입니다. 이곳은 주의사항입니다.
+              <br />
+              주의사항입니다. 이곳은 주의사항입니다.이곳은
+              주의사항입니다.주의사항입니다. 이곳은 주의사항입니다.
+              <br />
+              주의사항입니다. 이곳은 주의사항입니다.이곳은
+              주의사항입니다.주의사항입니다. 이곳은 주의사항입니다.
+              <br />
+              주의사항입니다. 이곳은 주의사항입니다.이곳은
+              주의사항입니다.주의사항입니다. 이곳은 주의사항입니다.
+              <br />
+              주의사항입니다. 이곳은 주의사항입니다.이곳은
+              주의사항입니다.주의사항입니다. 이곳은 주의사항입니다.
+            </p>
+            <div class="flex__row check">
+              <input type="checkbox" />
+              <span>주의사항을 모두 확인하였으며, 이에 동의합니다.</span>
+            </div>
+          </div>
+          <button>회원탈퇴</button>
+        </div>
+      </div>
+    </section>
+    <!-- Main End-->
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="footer__container container">
+        <h2 class="footer__title">회사 정보</h2>
+        <div class="footer__info">
+          <div class="footer__left">
+            <div class="footer__item contact">
+              <div class="footer__icon">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="footer__txt">
+                <span>전화번호 : 02-111-1111</span>
+                <span>이메일 : obodefg@naver.com</span>
+              </div>
+            </div>
+            <div class="footer__item location">
+              <div class="footer__icon">
+                <i class="far fa-lightbulb"></i>
+              </div>
+              <div class="footer__txt">
+                <span>서울 ~~~~~~~~~~~</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer__right">
+            <span>대표이사 : 홍길동</span>
+            <span>사업자 등록번호 : 111-11-111111</span>
+            <span>통신판매업신고번호 : 1111-서울-11111</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
