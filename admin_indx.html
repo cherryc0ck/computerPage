@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>컴퓨터페이지에 오신걸 환영합니다.</title>
+    <!-- 폰트어썸(아이콘) -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- 구글폰트(노토산스)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS 초기화 -->
+    <style type="text/css">
+      @import url("css/reset.css");
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header id="header">
+      <div class="header__container container">
+        <div class="oneDev">
+          <h1 class="header__logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+          </h1>
+          <div class="header__search">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="search" />
+            <button>검색</button>
+          </div>
+          <div>
+            <a>
+              <button class="logout">로그아웃</button>
+            </a>
+            <a href="admin.html">
+              <button class="admin">관리자 기능</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Navbar Start -->
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="computerList.html">컴퓨터</a>
+        </li>
+        <li>
+          <a href="notebookList.html">노트북</a>
+        </li>
+        <li>
+          <a href="phoneList.html">스마트폰</a>
+        </li>
+        <li>
+          <a href="gogack.html">고객센터</a>
+        </li>
+        <li class="admin__gear-nav">
+          <i class="fas fa-cog"></i>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Main Start-->
+    <section id="main">
+      <div class="main__container container">
+        <!-- Computer -->
+        <div class="main__row computer">
+          <h1 class="main__title">컴퓨터</h1>
+          <div class="admin__gear">
+            <i class="fas fa-cog"></i>
+          </div>
+          <ul class="main__list">
+            <li>
+              <a href="computerDetail.html">
+                <div class="main__img">
+                  <img src="images/computer/computer1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (1): 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="computerDetail.html">
+                <div class="main__img">
+                  <img src="images/computer/computer1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : LG PC</p>
+                  <p>새상품 가격 : 2,100,000원</p>
+                  <p>중고 최저 (0): 0원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="computerDetail.html">
+                <div class="main__img">
+                  <img src="images/computer/computer1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : i7 컴퓨터</p>
+                  <p>새상품 가격 : 1,800,000원</p>
+                  <p>중고 최저 (3): 1,100,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="computerDetail.html">
+                <div class="main__img">
+                  <img src="images/computer/computer1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 올인원PC</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (3): 700,000원</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="main__icon2 left">
+            <i class="fas fa-chevron-circle-left"></i>
+          </button>
+          <button class="main__icon2 right">
+            <i class="fas fa-chevron-circle-right"></i>
+          </button>
+          <a class="go__itemInfo" href="computerList.html">컴퓨터 더보기</a>
+        </div>
+        <!-- Notebook -->
+        <div class="main__row notebook">
+          <h1 class="main__title">노트북</h1>
+          <div class="admin__gear">
+            <i class="fas fa-cog"></i>
+          </div>
+          <ul class="main__list">
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/notebook/notebook1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 삼성 노트북</p>
+                  <p>새상품 가격 : 1,500,000원</p>
+                  <p>중고 최저 (1): 700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/notebook/notebook1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 삼성 노트북</p>
+                  <p>새상품 가격 : 2,300,000원</p>
+                  <p>중고 최저 (1): 1,700,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/notebook/notebook1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : LG 노트북</p>
+                  <p>새상품 가격 : 2,100,000원</p>
+                  <p>중고 최저 (0): 0원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/notebook/notebook1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : LG 노트북</p>
+                  <p>새상품 가격 : 1,800,000원</p>
+                  <p>중고 최저 (3): 1,100,000원</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="main__icon2 left">
+            <i class="fas fa-chevron-circle-left"></i>
+          </button>
+          <button class="main__icon2 right">
+            <i class="fas fa-chevron-circle-right"></i>
+          </button>
+          <a class="go__itemInfo" href="notebookList.html">노트북 더보기</a>
+        </div>
+        <div class="main__row phone">
+          <h1 class="main__title">스마트폰</h1>
+          <div class="admin__gear">
+            <i class="fas fa-cog"></i>
+          </div>
+          <ul class="main__list">
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/phone/phone1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 갤럭시 S21 울트라</p>
+                  <p>새상품 가격 : 1,300,000원</p>
+                  <p>중고 최저 (3): 800,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/phone/phone1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 아이폰 12 PRO</p>
+                  <p>새상품 가격 : 1,700,000원</p>
+                  <p>중고 최저 (4): 1,200,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/phone/phone1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 아이폰 12 MINI</p>
+                  <p>새상품 가격 : 1,800,000원</p>
+                  <p>중고 최저 (3): 1,100,000원</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a>
+                <div class="main__img">
+                  <img src="images/phone/phone1.jpg" />
+                </div>
+                <div class="main__icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="main__txt">
+                  <p>제품명 : 갤럭시Z플립 2</p>
+                  <p>새상품 가격 : 1,200,000원</p>
+                  <p>중고 최저 (2): 700,000원</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="main__icon2 left">
+            <i class="fas fa-chevron-circle-left"></i>
+          </button>
+          <button class="main__icon2 right">
+            <i class="fas fa-chevron-circle-right"></i>
+          </button>
+          <a class="go__itemInfo" href="phoneList.html">스마트폰 더보기</a>
+        </div>
+      </div>
+    </section>
+    <!-- Main End-->
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="footer__container container">
+        <h2 class="footer__title">회사 정보</h2>
+        <div class="footer__info">
+          <div class="footer__left">
+            <div class="footer__item contact">
+              <div class="footer__icon">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="footer__txt">
+                <span>전화번호 : 02-111-1111</span>
+                <span>이메일 : obodefg@naver.com</span>
+              </div>
+            </div>
+            <div class="footer__item location">
+              <div class="footer__icon">
+                <i class="far fa-lightbulb"></i>
+              </div>
+              <div class="footer__txt">
+                <span>서울 ~~~~~~~~~~~</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer__right">
+            <span>대표이사 : 홍길동</span>
+            <span>사업자 등록번호 : 111-11-111111</span>
+            <span>통신판매업신고번호 : 1111-서울-11111</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
